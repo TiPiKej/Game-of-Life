@@ -224,6 +224,13 @@ files:
         }
     }
   learner_created: false
+- name: src/life/Game.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/54/stages/294/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/54/stages/294/implement">JetBrains
+    Academy</a>
+  time: Mon, 12 Oct 2020 19:44:24 UTC
 record: -1
