@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Game of Life/task" />
+            <option value="$PROJECT_DIR$/Problems/Double factorial" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

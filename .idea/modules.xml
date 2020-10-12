@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task.iml" group="Game_of_Life/Game_of_Life-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task_main.iml" group="Game_of_Life/Game_of_Life-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/Game_of_Life-task_test.iml" group="Game_of_Life/Game_of_Life-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial.iml" group="Game_of_Life/Problems-Double_factorial" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial_main.iml" group="Game_of_Life/Problems-Double_factorial" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Double factorial/Problems-Double_factorial_test.iml" group="Game_of_Life/Problems-Double_factorial" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Game_of_Life/util" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Game_of_Life/util" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Game_of_Life/util" />
