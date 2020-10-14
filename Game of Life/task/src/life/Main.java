@@ -7,11 +7,18 @@ public class Main {
         final Scanner scanner = new Scanner(System.in);
 
         final int N = scanner.nextInt();
-        final int S = scanner.nextInt();
+        final Long S = scanner.nextLong();
+        final int genLen = scanner.nextInt();
 
         scanner.close();
 
-        Game game = new Game(N, S);
-        System.out.println(game.toString());
+        Universe universe = new Universe(N, S);
+        Generation generation = new Generation(universe);
+
+        for (int i = 0; i < genLen; i++) {
+            generation.nextGen();
+        }
+
+        System.out.println(universe.toString());
     }
 }

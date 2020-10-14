@@ -1,4 +1,6 @@
 life/Main.java
  life.Main
-life/Game.java
- life.Game
+life/Universe.java
+ life.Universe
+life/Generation.java
+ life.Generation
