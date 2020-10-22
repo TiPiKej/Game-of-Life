@@ -9,13 +9,20 @@ public class Generation {
 
     public void nextGen() {
         Universe universeCopy = universe.copy();
+        universeCopy.setGeneration(universe.getGeneration() + 1);
 
         for (int y = 0; y < universeCopy.getSize(); y++) {
             for (int x = 0; x < universeCopy.getSize(); x++) {
                 int c = getCountOfNeighbors(x, y);
 
-                if (!(c == 2 || c == 3)) universeCopy.setArea(x, y, false);
-                else if (c == 3) universeCopy.setArea(x, y, true);
+                if (!(c == 2 || c == 3)) {
+                    if (universeCopy.getAreaScf(x, y)) universeCopy.setAlive(universeCopy.getAlive() + 1);
+                    universeCopy.setArea(x, y, false);
+                }
+                else if (c == 3) {
+                    if (!universeCopy.getAreaScf(x, y)) universeCopy.setAlive(universeCopy.getAlive() - 1);
+                    universeCopy.setArea(x, y, true);
+                }
             }
         }
 
